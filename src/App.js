@@ -14,28 +14,28 @@ export default class App extends Component {
             <p>
               Digital Interaction Design
               <ol>
-                <li><a href="/embroiderme">embrioder.me</a></li>
-                <li><a href="/misinfoescaperoom">Misinformation Escape Room</a></li>
+                <li><a href="/#/embroiderme">embrioder.me</a></li>
+                <li><a href="/#/misinfoescaperoom">Misinformation Escape Room</a></li>
               </ol>
             </p>
             <p>
               Interactive Art
               <ol>
-                <li><a href="/makeitbloom">Make It Bloom</a></li>
-                <li><a href="/soundofhearthand">The Sound of Heart and Hand</a></li>
-                <li><a href="/vestmemories">The Vest of Memories</a></li>
-                <li><a href="/worldfrommyhands">The World from My Hands</a></li>
+                <li><a href="/#/makeitbloom">Make It Bloom</a></li>
+                <li><a href="/#/soundofhearthand">The Sound of Heart and Hand</a></li>
+                <li><a href="/#/vestmemories">The Vest of Memories</a></li>
+                <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
               </ol>
             </p>
             <p>
               Research/Writing
               <ol>
-                <li><a href="/hmongembroidery">Learn the Heart of Hmong Culture through Hmong Embroidery</a></li>
-                <li><a href="/colorofnature">Computer as a Medium for Human-Environment Interaction</a></li>
+                <li><a href="/#/hmongembroidery">Learn the Heart of Hmong Culture through Hmong Embroidery</a></li>
+                <li><a href="/#/colorofnature">Computer as a Medium for Human-Environment Interaction</a></li>
               </ol>
             </p>
-            <p><a href="/playground">Playground</a></p>
-            <p><a href="https://medium.com/@ploypp" target="_blank">Medium Posts &rarr;</a></p>
+            <p><a href="/#/playground">Playground</a></p>
+            <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p>
           </div>
           <div className="column-right">
             <p><b>Ploypilin (Ploy) Pruekcharoen</b> (she/her) is a dedicated educator and artist who is passionate about 

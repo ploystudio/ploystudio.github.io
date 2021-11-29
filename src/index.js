@@ -15,7 +15,7 @@ import ColorofNature from './Project/research/colorofnature';
 import Playground from './Project/playground';
 
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 ReactDOM.render(
   <Router basename={process.env.PUBLIC_URL + '/'}>
