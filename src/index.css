@@ -33,7 +33,7 @@
 
 * {
   font-family: 'helvetica-neue', sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   color: #000000;
   background-color: transparent;
   scroll-behavior: smooth;
@@ -46,16 +46,44 @@
 /* Create two equal columns that floats next to each other */
 .column-left {
   float: left;
-  width: 40%;
-  padding: 25px 70px 25px 25px;
-  height: 100vh; /* Should be removed. Only for demonstration */
+  width: 25%;
+  padding: 25px 40px 25px 25px;
+  height: 100vh;
 }
 
 .column-right {
   float: left;
-  width: 60%;
+  width: 75%;
   padding: 25px;
-  height: 100vh; /* Should be removed. Only for demonstration */
+  height: 100%;
+}
+
+/* Wrapper */
+
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 70% 23% 7%;
+  grid-gap: 32px 60px;
+  gap: 32px 60px;
+  grid-row-gap: 28px;
+  row-gap: 28px;
+}
+
+.col1-start {
+  grid-column-start: 1;
+}
+
+.col2-start {
+  grid-column-start: 2;
+}
+
+.col1-end {
+  grid-column-end: 1;
+}
+
+.col2-end {
+  grid-column-end: 2;
 }
 
 /* Clear floats after the columns */
@@ -98,9 +126,16 @@ p {
   font-size: 0.95rem;
 }
 
+span {
+  font-family: 'Overpass Mono', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #777777;
+}
+
 .project-column a,
 .project-column p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .project-column ol {
@@ -131,7 +166,7 @@ a:hover {
 }
 
 ::selection {
-  background: #f5f1ff;
+  background: #efe9ff;
   color: #000000;
 }
 
@@ -143,4 +178,16 @@ img {
 
 .centeredimg img {
   max-width: 40vw;
+}
+
+.paddingtop30 {
+  padding-top: 30px;
+}
+
+/* iframe */
+
+iframe {
+  border: 0;
+  width: 300px;
+  height: 530px;
 }

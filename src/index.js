@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import ScrollToTop from './ScrollToTop';
 import App from './App';
+import FamApp from './Project/design/famapp';
 import Embroiderme from './Project/design/embroiderme';
 import Misinfo from './Project/design/misinfo';
 import MakeItBloom from './Project/interactive/makeitbloom';
@@ -22,6 +23,7 @@ ReactDOM.render(
     <ScrollToTop/>
       <Switch>
         <Route exact path="/" component={App} />
+        <Route path="/famapp" component={FamApp} />
         <Route path="/embroiderme" component={Embroiderme} />
         <Route path="/misinfoescaperoom" component={Misinfo} />
         <Route path="/makeitbloom" component={MakeItBloom} />
