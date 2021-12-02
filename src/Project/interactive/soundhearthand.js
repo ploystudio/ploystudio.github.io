@@ -22,7 +22,7 @@ export default class SoundHeartHand extends Component {
               <ol>
                 <li><a href="/#/famapp">Fam App</a></li>
                 <li><a href="/#/misinfoescaperoom">Misinformation Escape Room</a></li>
-                <li><a href="/#/embroiderme">embrioder.me</a></li>
+                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
               </ol>
             </p>
             <p>
@@ -34,7 +34,7 @@ export default class SoundHeartHand extends Component {
                 <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
               </ol>
             </p>
-            <p><a href="/#/playground">Playground</a></p>
+            {/* <p><a href="/#/playground">Playground</a></p> */}
             {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
           </div>
           <div className="column-right">
@@ -42,7 +42,7 @@ export default class SoundHeartHand extends Component {
               <div className="col1-start col-1end">
                 <br/>
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/vi8gXhpl6ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>
+                <p className="paddingtop30">
                   As a person who is always fascinated by performing arts, I have been inspired by the beauty of dance and music. 
                   During my sophomore year, I went to UW Chamber Dance Company Concert and was impressed by the feelings that the 
                   dancers convey, not with words but with body movements. With an intention to explore the connection between the 
@@ -50,7 +50,7 @@ export default class SoundHeartHand extends Component {
                   movement to control sound.
                 </p>
                 <img className="paddingtop30" src="img/soundhh/shh1.png" alt="The Sound of Heart and Hand Project"/>
-                <p>
+                <p className="paddingtop30">
                   Learning about the artist’s mind and intention is part of knowing the art itself. My motivation for creating this 
                   interactive object is to enhance the sense of feeling using sound as a medium, to sense not only what the artist 
                   performs but also how they feel at the moment. The Sound of Heart and Hand is made in a form of wearable art using 
@@ -65,7 +65,7 @@ export default class SoundHeartHand extends Component {
                 <br/>
                 <span>The Sound of Heart and Hand<br/>(November 2021)</span>
                 <br/><br/>
-                <span>role: interactive artist<br/>tools: Arduino, Arduino IDLE, Physical Computing</span>
+                <span>role: interactive artist<br/><br/>tools: Arduino, Arduino IDLE, Physical Computing</span>
               </div>
             </div>
           </div>

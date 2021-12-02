@@ -23,7 +23,7 @@ export default class App extends Component {
               <ol>
                 <li><a href="/#/famapp">Fam App</a></li>
                 <li><a href="/#/misinfoescaperoom">Misinformation Escape Room</a></li>
-                <li><a href="/#/embroiderme">embrioder.me</a></li>
+                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
               </ol>
             </p>
             <p>
@@ -35,7 +35,7 @@ export default class App extends Component {
                 <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
               </ol>
             </p>
-            <p><a href="/#/playground">Playground</a></p>
+            {/* <p><a href="/#/playground">Playground</a></p> */}
             {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
           </div>
           <div className="column-right">
@@ -50,9 +50,9 @@ export default class App extends Component {
                   the environment.
                 </p>
                 <p><a href="/Ploypilin_Pruekcharoen_Resume.pdf" target="_blank" rel="noreferrer">See my resume &rarr;</a></p>
-                <img src="img/me.gif" alt="My Portrait"/>
+                <img className="paddingtop30 portrait" src="img/me.gif" alt="My Portrait"/>
                 <div>
-                  <p>check out my <a href="https://open.spotify.com/playlist/1VRyoaF9WgAZnEoUgE2Bgl?si=4f0oB-2kQqWJh4D7_qvZ3Q" target="_blank" rel="noreferrer">spotify playlist</a>
+                  <p className="paddingtop30">check out my <a href="https://open.spotify.com/playlist/1VRyoaF9WgAZnEoUgE2Bgl?si=4f0oB-2kQqWJh4D7_qvZ3Q" target="_blank" rel="noreferrer">spotify playlist</a>
                   <b> / now reading: </b> Beartown <i>by Fredrik Backman</i>, ขอฝันใฝ่ในฝันอันเหลือเชื่อ <i>by ณัฐพล ใจจริง</i></p>
                 </div>
               </div>

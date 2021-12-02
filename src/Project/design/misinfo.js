@@ -22,7 +22,7 @@ export default class Misinfo extends Component {
               <ol>
                 <li><a href="/#/famapp">Fam App</a></li>
                 <li><a href="/#/misinfoescaperoom" className="current-page">Misinformation Escape Room</a></li>
-                <li><a href="/#/embroiderme">embrioder.me</a></li>
+                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
               </ol>
             </p>
             <p>
@@ -34,7 +34,7 @@ export default class Misinfo extends Component {
                 <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
               </ol>
             </p>
-            <p><a href="/#/playground">Playground</a></p>
+            {/* <p><a href="/#/playground">Playground</a></p> */}
             {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
           </div>
           <div className="column-right">
@@ -46,12 +46,12 @@ export default class Misinfo extends Component {
                 <img className="paddingtop30" src="img/misinfo/mer4.png" alt="Misinformation Escape Room Project"/>
               </div>
               <div className="col2-start col2-end">
-              <br/>
+                <br/>
                 <span>Misinformation Escape Room</span>
                 <br/><br/>
                 <span>
-                  role: user experience designer<br/>tools: Figma, Adobe Photoshop<br/>
-                  team: 1 graphic designer and 1 developer
+                  role: user experience designer<br/><br/>tools: Figma, Adobe Photoshop
+                  <br/><br/>team: 1 graphic designer and 1 developer
                 </span>
               </div>
             </div>

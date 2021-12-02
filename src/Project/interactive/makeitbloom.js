@@ -22,7 +22,7 @@ export default class MakeItBloom extends Component {
               <ol>
                 <li><a href="/#/famapp">Fam App</a></li>
                 <li><a href="/#/misinfoescaperoom">Misinformation Escape Room</a></li>
-                <li><a href="/#/embroiderme">embrioder.me</a></li>
+                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
               </ol>
             </p>
             <p>
@@ -34,7 +34,7 @@ export default class MakeItBloom extends Component {
                 <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
               </ol>
             </p>
-            <p><a href="/#/playground">Playground</a></p>
+            {/* <p><a href="/#/playground">Playground</a></p> */}
             {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
           </div>
           <div className="column-right">
@@ -42,7 +42,7 @@ export default class MakeItBloom extends Component {
               <div className="col1-start col-1end">
                 <br/>
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/0-Ngf4_q-EA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>
+                <p className="paddingtop30">
                   This project was created with a goal to help people reconnect to nature, using machine learning of 
                   hand gestures and flower photos to control the handcrafted flower.
                 </p>
@@ -56,7 +56,7 @@ export default class MakeItBloom extends Component {
                 <br/>
                 <span>Make It Bloom<br/>(June 2021)</span>
                 <br/><br/>
-                <span>role: interactive artist<br/>tools: Adafruit BrainCraft, Python, Lobe, Physical Computing, Digital Fabrication, Maching Learning</span>
+                <span>role: interactive artist<br/><br/>tools: Adafruit BrainCraft, Python, Lobe, Physical Computing, Digital Fabrication, Maching Learning</span>
               </div>
             </div>
           </div>

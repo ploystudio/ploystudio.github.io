@@ -22,7 +22,7 @@ export default class ColorofNature extends Component {
               <ol>
                 <li><a href="/#/famapp">Fam App</a></li>
                 <li><a href="/#/misinfoescaperoom">Misinformation Escape Room</a></li>
-                <li><a href="/#/embroiderme">embrioder.me</a></li>
+                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
               </ol>
             </p>
             <p>
@@ -34,7 +34,7 @@ export default class ColorofNature extends Component {
                 <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
               </ol>
             </p>
-            <p><a href="/#/playground">Playground</a></p>
+            {/* <p><a href="/#/playground">Playground</a></p> */}
             {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
           </div>
           <div className="column-right">
@@ -42,7 +42,7 @@ export default class ColorofNature extends Component {
               <div className="col1-start col-1end">
                 <br/>
                 <img src="img/colornature/con1.png" alt="Color of Nature Project"/>
-                <p>
+                <p className="paddingtop30">
                   Inspired by the tangible computing and posthumanism concepts, I had proposed a concept of interactive art that enhances 
                   interactions between human, computer, and environment with a written justification.
                 </p>
@@ -54,7 +54,9 @@ export default class ColorofNature extends Component {
                 <br/>
                 <span>Computer as a Medium for Human-Environment Interaction<br/>(June 2021)</span>
                 <br/><br/>
-                <span>topics: human-computer interaction, interactive art<br/>tools: Arduino, Python, Physical Computing</span>
+                <span>topics: human-computer interaction, interactive art<br/><br/>tools: Arduino, Python, Physical Computing</span>
+                <br/><br/>
+                <a href="https://medium.com/@ploypp/computer-as-a-medium-for-human-environment-interaction-the-color-of-nature-tangible-interactive-16865e213ad1" target="_blank" rel="noreferrer"><span>Link to the Medium post</span></a>
               </div>
             </div>
           </div>
