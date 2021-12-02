@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Navbar from '../../Component/NavBar';
 
 export default class Misinfo extends Component {
   componentDidMount(){
@@ -8,50 +9,39 @@ export default class Misinfo extends Component {
     return (
       <div>
         <div className="row">
-        <div className="column-left project-column">
-            <p><a href="/">Ploy Pruekcharoen</a></p>
-            <p>
-              Research/Writing
-              <ol>
-                <li><a href="/#/hmongembroidery">Ethnographic research on Hmong embroidery</a></li>
-                <li><a href="/#/colorofnature">Computer as a Medium for Human-Environment Interaction</a></li>
-              </ol>
-            </p>
-            <p>
-              Digital Interaction Design
-              <ol>
-                <li><a href="/#/famapp">Fam App</a></li>
-                <li><a href="/#/misinfoescaperoom" className="current-page">Misinformation Escape Room</a></li>
-                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
-              </ol>
-            </p>
-            <p>
-              Interactive Art
-              <ol>
-                <li><a href="/#/makeitbloom">Make It Bloom</a></li>
-                <li><a href="/#/soundofhearthand">The Sound of Heart and Hand</a></li>
-                <li><a href="/#/vestmemories">The Vest of Memories</a></li>
-                <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
-              </ol>
-            </p>
-            {/* <p><a href="/#/playground">Playground</a></p> */}
-            {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
-          </div>
+          <Navbar />
           <div className="column-right">
             <div className="wrapper">
               <div className="col1-start col-1end">
+                <h2>Misinformation Escape Room</h2>
                 <br/>
                 <img src="img/misinfo/mer1.png" alt="Misinformation Escape Room Project"/>
+                <p className="paddingtop30">
+                  The purpose of Misinformation Escape Room is to teach people about mis- and disinformation on 
+                  social media and digital platforms through an interactive puzzle game. The project is part of 
+                  Technology &amp; Social Change Group at the University of Washington Information School.
+                </p>
                 <img className="paddingtop30" src="img/misinfo/mer3.png" alt="Misinformation Escape Room Project"/>
+                <p className="paddingtop30">
+                  I was a part of the development team to revise the first design of the game. As a user experience designer, 
+                  I focused on the user flow, interface elements, and the gaming experience of the online escape room. I mainly
+                  worked on designing and adjusting the game interfaces and interactions based on the research findings from 
+                  user testings.
+                </p>
                 <img className="paddingtop30" src="img/misinfo/mer4.png" alt="Misinformation Escape Room Project"/>
+                <p className="paddingtop30">
+                  After deploying the new design of the game, our research group is working on the process of testing with libraries, 
+                  schools, museums, and other educational institutions, with a goal to provide an edicational tool for technological awareness.
+
+                </p>
               </div>
               <div className="col2-start col2-end">
                 <br/>
-                <span>Misinformation Escape Room</span>
+                <span>JUNE 2021-SEPTEMBER 2021</span>
                 <br/><br/>
                 <span>
                   role: user experience designer<br/><br/>tools: Figma, Adobe Photoshop
-                  <br/><br/>team: 1 graphic designer and 1 developer
+                  <br/><br/>(work with another graphic designer and a web developer)
                 </span>
               </div>
             </div>

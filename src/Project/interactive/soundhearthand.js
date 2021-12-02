@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Navbar from '../../Component/NavBar';
 
 export default class SoundHeartHand extends Component {
   componentDidMount(){
@@ -8,38 +9,11 @@ export default class SoundHeartHand extends Component {
     return (
       <div>
         <div className="row">
-        <div className="column-left project-column">
-            <p><a href="/">Ploy Pruekcharoen</a></p>
-            <p>
-              Research/Writing
-              <ol>
-                <li><a href="/#/hmongembroidery">Ethnographic research on Hmong embroidery</a></li>
-                <li><a href="/#/colorofnature">Computer as a Medium for Human-Environment Interaction</a></li>
-              </ol>
-            </p>
-            <p>
-              Digital Interaction Design
-              <ol>
-                <li><a href="/#/famapp">Fam App</a></li>
-                <li><a href="/#/misinfoescaperoom">Misinformation Escape Room</a></li>
-                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
-              </ol>
-            </p>
-            <p>
-              Interactive Art
-              <ol>
-                <li><a href="/#/makeitbloom">Make It Bloom</a></li>
-                <li><a href="/#/soundofhearthand" className="current-page">The Sound of Heart and Hand</a></li>
-                <li><a href="/#/vestmemories">The Vest of Memories</a></li>
-                <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
-              </ol>
-            </p>
-            {/* <p><a href="/#/playground">Playground</a></p> */}
-            {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
-          </div>
+          <Navbar />
           <div className="column-right">
             <div className="wrapper">
               <div className="col1-start col-1end">
+                <h2>The Sound of Heart and Hand</h2>
                 <br/>
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/vi8gXhpl6ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p className="paddingtop30">
@@ -63,7 +37,7 @@ export default class SoundHeartHand extends Component {
               </div>
               <div className="col2-start col2-end">
                 <br/>
-                <span>The Sound of Heart and Hand<br/>(November 2021)</span>
+                <span>November 2021</span>
                 <br/><br/>
                 <span>role: interactive artist<br/><br/>tools: Arduino, Arduino IDLE, Physical Computing</span>
               </div>

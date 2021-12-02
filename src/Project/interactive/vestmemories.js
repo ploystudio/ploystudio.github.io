@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Navbar from '../../Component/NavBar';
 
 export default class VestMemories extends Component {
   componentDidMount(){
@@ -8,38 +9,11 @@ export default class VestMemories extends Component {
     return (
       <div>
         <div className="row">
-        <div className="column-left project-column">
-            <p><a href="/">Ploy Pruekcharoen</a></p>
-            <p>
-              Research/Writing
-              <ol>
-                <li><a href="/#/hmongembroidery">Ethnographic research on Hmong embroidery</a></li>
-                <li><a href="/#/colorofnature">Computer as a Medium for Human-Environment Interaction</a></li>
-              </ol>
-            </p>
-            <p>
-              Digital Interaction Design
-              <ol>
-                <li><a href="/#/famapp">Fam App</a></li>
-                <li><a href="/#/misinfoescaperoom">Misinformation Escape Room</a></li>
-                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
-              </ol>
-            </p>
-            <p>
-              Interactive Art
-              <ol>
-                <li><a href="/#/makeitbloom">Make It Bloom</a></li>
-                <li><a href="/#/soundofhearthand">The Sound of Heart and Hand</a></li>
-                <li><a href="/#/vestmemories" className="current-page">The Vest of Memories</a></li>
-                <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
-              </ol>
-            </p>
-            {/* <p><a href="/#/playground">Playground</a></p> */}
-            {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
-          </div>
+          <Navbar />
           <div className="column-right">
             <div className="wrapper">
               <div className="col1-start col-1end">
+                <h2>The Vest of Memories</h2>
                 <br/>
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/l7tdk8AF210" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p className="paddingtop30">
@@ -60,18 +34,18 @@ export default class VestMemories extends Component {
                 <img className="paddingtop30" src="img/vestmemo/vm2.png" alt="The Vest of Memories Project"/>
                 <img className="paddingtop30" src="img/vestmemo/vm3.png" alt="The Vest of Memories Project"/>
                 <p className="paddingtop30">
-                  For the coding part, I use Arduino and Python. I received the serial data of distance between my hand 
+                  For the coding part, I used Arduino and Python. I received the serial data of distance between my hand 
                   and the ultrasonic sensor from Arduino and used the Pyserial library in Python to read it. I then wrote 
                   the code to control the LED and the video in Python. If the distance is less than 10 cm, the LED and 
                   the video will be on. On the other hand, if the distance is more than 10 cm, the LED will be off and 
                   the video will be paused. This gesture highlights the fact that these memories have been triggered by 
-                  heart, and I intend to use this interaction to convey the message.
+                  heart, and I want to convey this message through interactive experience.
                 </p>
                 <img className="paddingtop30" src="img/vestmemo/vm4.png" alt="The Vest of Memories Project"/>
               </div>
               <div className="col2-start col2-end">
                 <br/>
-                <span>The Vest of Memories<br/>(March 2021)</span>
+                <span>March 2021</span>
                 <br/><br/>
                 <span>role: interactive artist<br/><br/>tools: Arduino, Python, Physical Computing</span>
               </div>

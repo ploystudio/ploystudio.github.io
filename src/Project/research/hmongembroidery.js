@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Navbar from '../../Component/NavBar';
 
 export default class HmongEmbroidery extends Component {
   componentDidMount(){
@@ -8,40 +9,13 @@ export default class HmongEmbroidery extends Component {
     return (
       <div>
         <div className="row">
-        <div className="column-left project-column">
-            <p><a href="/">Ploy Pruekcharoen</a></p>
-            <p>
-              Research/Writing
-              <ol>
-                <li><a href="/#/hmongembroidery" className="current-page">Ethnographic research on Hmong embroidery</a></li>
-                <li><a href="/#/colorofnature">Computer as a Medium for Human-Environment Interaction</a></li>
-              </ol>
-            </p>
-            <p>
-              Digital Interaction Design
-              <ol>
-                <li><a href="/#/famapp">Fam App</a></li>
-                <li><a href="/#/misinfoescaperoom">Misinformation Escape Room</a></li>
-                {/* <li><a href="/#/embroiderme">embrioder.me</a></li> */}
-              </ol>
-            </p>
-            <p>
-              Interactive Art
-              <ol>
-                <li><a href="/#/makeitbloom">Make It Bloom</a></li>
-                <li><a href="/#/soundofhearthand">The Sound of Heart and Hand</a></li>
-                <li><a href="/#/vestmemories">The Vest of Memories</a></li>
-                <li><a href="/#/worldfrommyhands">The World from My Hands</a></li>
-              </ol>
-            </p>
-            {/* <p><a href="/#/playground">Playground</a></p> */}
-            {/* <p><a href="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
-          </div>
+          <Navbar />
           <div className="column-right">
             <div className="wrapper">
               <div className="col1-start col-1end">
+                <h2>Ethnographic research on Hmong embroidery</h2>
                 <br/>
-                <p className="paddingtop30">
+                <p>
                   With a desire to learn more about the social context and beauty of Hmong embroidery, I conducted an 
                   ethnographic research with a participatory approach on Hmong embroidery culture with teenagers. My research 
                   focuses on the perceptions and viewpoints of the younger generation because they are the ones who define 
@@ -66,9 +40,12 @@ export default class HmongEmbroidery extends Component {
               </div>
               <div className="col2-start col2-end">
                 <br/>
-                <span>Ethnographic research on Hmong embroidery<br/>(June 2021)</span>
+                <span>June 2021</span>
                 <br/><br/>
-                <span>role: sole researcher</span>
+                <span>
+                  role: researcher<br/><br/>topics: ethnographic research, participatory research methods,
+                  cultural study
+                </span>
                 <br/><br/>
                 <a href="https://medium.com/@ploypp/learn-the-heart-of-hmong-culture-through-hmong-embroidery-9f19df6f608a" target="_blank" rel="noreferrer"><span>Link to the Medium post</span></a>
               </div>

@@ -1,0 +1,47 @@
+
+/* Menu */
+
+.Menu {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    background-color: transparent;
+}
+.Menu ul, .Menu li a {
+  position: relative;
+  top: 0px;
+  /* font-size: 60px; */
+  padding: 0px;
+  color: #fff;
+  background-color: transparent;
+}
+.Menu li {
+  list-style: outside none none;
+  margin: 10px 0px;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+.Menu a:hover {
+  text-decoration-style: solid;
+  text-decoration-color: #fff;
+}
+
+.popup-overlay {
+  animation: fadeIn 0.25s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}

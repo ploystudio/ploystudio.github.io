@@ -34,12 +34,8 @@
 * {
   font-family: 'helvetica-neue', sans-serif;
   /* overflow-x: hidden; */
-  color: #000000;
   background-color: transparent;
   scroll-behavior: smooth;
-}
-
-* {
   box-sizing: border-box;
 }
 
@@ -150,6 +146,7 @@ a {
   text-decoration-style: dotted;
   text-decoration-thickness: 1px;
   text-decoration-color: #a5a5a5;
+  color: #000000;
 }
 
 a:hover {
@@ -157,13 +154,13 @@ a:hover {
   text-decoration-color: #000000;
 }
 
-.current-page {
+/* .current-page {
   color: #775ac5;
 }
 
 .current-page:hover {
   text-decoration-color: #775ac5;
-}
+} */
 
 ::selection {
   background: #efe9ff;
@@ -195,3 +192,88 @@ img {
   width: 300px;
   height: 530px;
 }
+
+/* burger-menu */
+
+.burger-menu,
+.burger-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  /* right: 20px; */
+  /* bottom: 40px; */
+  z-index: 9999;
+  /* background: #fff; */
+  padding-right: 20px;
+  border-radius: 25px;
+  background-color: transparent;
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); */
+}
+
+.burger-menu .bar1,
+.bar2 {
+  width: 30px;
+  height: 1px;
+  background-color: #22223B;
+  margin: 7px 0;
+  transition: 0.4s;
+}
+
+.burger-menu.open .bar1 {
+  -webkit-transform: rotate(-30deg) translate(-4px, 4px);
+  transform: rotate(-30deg) translate(-2px, 2px);
+  background-color: #f7f5f1;
+}
+
+.burger-menu.open .bar2 {
+  -webkit-transform: rotate(30deg) translate(-4px, -4px);
+  transform: rotate(30deg) translate(-4px, -4px);
+  background-color: #f7f5f1;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.Menu a,
+.Menu p {
+  color: #fff;
+}
+
+/* screens */
+
+@media (min-width: 280px) and (max-width: 895px) {
+  .wrapper {
+    display: block;
+  }
+  .column-right {
+    width: 100%;
+  }
+  .burger-menu {
+    display: inline-block;
+    position: sticky;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .burger-menu.open {
+    padding-right: 80px;
+  }
+  .nav-info {
+    display: none;
+  }
+}
+
+/* @media (min-width: 280px) and (max-width: 475px) {
+
+}
+
+@media (min-width: 476px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+} */
