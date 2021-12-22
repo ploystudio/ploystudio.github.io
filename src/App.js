@@ -14,7 +14,7 @@ export default class App extends Component {
           <div className="column-right">
             <div className="wrapper">
               <div className="col1-start col-1end">
-                <p><b>Ploypilin (Ploy) Pruekcharoen</b> (she/her) is a dedicated educator and artist who is passionate about 
+                <p><b>Ploypilin (Ploy) Pruekcharoen</b> (she/her) is a dedicated artist who is passionate about 
                   the integration of <b>art, technology, nature, and social justice</b>.
                   She is currently pursuing a Bachelor degree in Human Centered Design &amp; Engineering at 
                   the University of Washington. She likes to create meaningful experiences through design and art. 
