@@ -28,6 +28,12 @@ export default ({ close }) => (
           <a href="/#/worldfrommyhands"><li onClick={close}>The World from My Hands</li></a>
         </ol>
       </p>
+      <p>
+        Data Visualization
+        <ol>
+          <a href="/#/oscarsdiversity"><li onClick={close}>History of Racial Diversity in Academy Award Winners and Nominees</li></a>
+        </ol>
+      </p>
     </ul>
   </div>
 );
