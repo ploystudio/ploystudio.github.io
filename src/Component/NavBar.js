@@ -75,6 +75,12 @@ export default class Navbar extends Component {
               <li><NavLink activeStyle={{ color:'#775ac5' }} to="/worldfrommyhands">The World from My Hands</NavLink></li>
             </ol>
           </p>
+          <p>
+            Data Visualization
+            <ol>
+              <li><NavLink activeStyle={{ color:'#775ac5' }} to="/oscarsdiversity">History of Racial Diversity in Academy Award Winners and Nominees</NavLink></li>
+            </ol>
+          </p>
           {/* <p><NavLink activeStyle={{ color:'#775ac5' }} to="/playground">Playground</NavLink></p> */}
           {/* <p><NavLink to="https://medium.com/@ploypp" target="_blank" rel="noreferrer">Medium Posts &rarr;</a></p> */}
         </div>

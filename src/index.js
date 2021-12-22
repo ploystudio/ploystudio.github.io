@@ -13,6 +13,7 @@ import VestMemories from './Project/interactive/vestmemories';
 import WorldfromMyHands from './Project/interactive/worldfrommyhands';
 import HmongEmbroidery from './Project/research/hmongembroidery';
 import ColorofNature from './Project/research/colorofnature';
+import Oscars from './Project/dataviz/orcarsdiversity';
 import Playground from './Project/playground';
 
 import * as serviceWorker from './serviceWorker';
@@ -32,6 +33,7 @@ ReactDOM.render(
         <Route path="/worldfrommyhands" component={WorldfromMyHands} />
         <Route path="/hmongembroidery" component={HmongEmbroidery} />
         <Route path="/colorofnature" component={ColorofNature} />
+        <Route path="/oscarsdiversity" component={Oscars} />
         <Route path="/playground" component={Playground} />
       </Switch>
   </Router>
