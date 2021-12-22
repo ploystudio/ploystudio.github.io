@@ -7,6 +7,7 @@ import App from './App';
 import FamApp from './Project/design/famapp';
 import Embroiderme from './Project/design/embroiderme';
 import Misinfo from './Project/design/misinfo';
+import ColorizedCloud from './Project/interactive/colorizedcloud';
 import MakeItBloom from './Project/interactive/makeitbloom';
 import SoundHeartHand from './Project/interactive/soundhearthand';
 import VestMemories from './Project/interactive/vestmemories';
@@ -25,7 +26,8 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/famapp" component={FamApp} />
-        <Route path="/embroiderme" component={Embroiderme} />
+        {/* <Route path="/embroiderme" component={Embroiderme} /> */}
+        <Route path="/colorizedcloud" component={ColorizedCloud} />
         <Route path="/misinfoescaperoom" component={Misinfo} />
         <Route path="/makeitbloom" component={MakeItBloom} />
         <Route path="/soundofhearthand" component={SoundHeartHand} />

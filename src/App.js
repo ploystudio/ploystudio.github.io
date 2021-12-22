@@ -26,7 +26,7 @@ export default class App extends Component {
                 <img className="paddingtop30 portrait" src="img/me.gif" alt="My Portrait"/>
                 <div>
                   <p className="paddingtop30">check out my <a href="https://open.spotify.com/playlist/1VRyoaF9WgAZnEoUgE2Bgl?si=4f0oB-2kQqWJh4D7_qvZ3Q" target="_blank" rel="noreferrer">spotify playlist</a>
-                  <b> / now reading: </b> Beartown <i>by Fredrik Backman</i>, ขอฝันใฝ่ในฝันอันเหลือเชื่อ <i>by ณัฐพล ใจจริง</i></p>
+                  <b> / now reading: </b> The Jellyfish Never Freezes <i>by Yuto Ichikawa</i></p>
                 </div>
               </div>
             </div>
