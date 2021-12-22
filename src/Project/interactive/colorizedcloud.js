@@ -17,11 +17,11 @@ export default class ColorizedCloud extends Component {
                 <br/>
                 <img className="paddingtop30" src="img/colorizedcloud/color-change.gif" alt="Colorized Cloud Project"/>
                 <p className="paddingtop30">
-                  Colorized Cloud is an interactive object that generating a set of colors by listening to the spoken word(s) 
+                  Colorized Cloud is an interactive object that generates a set of colors by listening to the spoken word(s) 
                   from a person who talks to it. People use words to communicate. While we only hears words in the form of sound 
                   and see them in the form of text, the feelings toward one specific word varies from person to person. Based on 
                   research in pshychology, there is a study that colors can affect emotions. Therefore, I use color as a medium 
-                  in this art piece to allow the audience to experience people’s feelings toward a word or a set of words.
+                  in this art piece to allow the audience to experience people's feelings toward a word or a set of words.
                 </p>
                 <img className="paddingtop30" src="img/colorizedcloud/processing.gif" alt="Colorized Cloud Project"/>
                 <p className="paddingtop30">
