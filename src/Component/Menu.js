@@ -22,6 +22,7 @@ export default ({ close }) => (
       <p>
         Interactive Art
         <ol>
+          <a href="/#/colorizedcloud"><li onClick={close}>Colorized Cloud</li></a>
           <a href="/#/makeitbloom"><li onClick={close}>Make It Bloom</li></a>
           <a href="/#/soundofhearthand"><li onClick={close}>The Sound of Heart and Hand</li></a>
           <a href="/#/vestmemories"><li onClick={close}>The Vest of Memories</li></a>
