@@ -22,11 +22,10 @@ export default class MakeItBloom extends Component {
                 </p>
                 <img className="paddingtop30" src="img/makeitbloom/mib1.png" alt="Make It Bloom Project"/>
                 <p className="paddingtop30">
-                  One day during the pandemic, I realized that it had been so long since last time I walked under trees
-                  and appreciated the natural surroundings. Although I understand the objectives of having COVID guidelines, 
-                  I could not refuse that social distancing and face covering limited the chance to fully 'feel' the nature.
-                  While we still have to protect ourselves and the community, it would be nice if there is something that could remind 
-                  us about the feeling of nature.
+                  One day during the pandemic, I realized that it had been so long since last time I walked under trees and appreciated 
+                  the natural surroundings. Although I understand the objectives of having COVID guidelines, I could not refuse that social 
+                  distancing and face coverings limited the chance to fully 'feel' nature. While we still have to protect ourselves and the 
+                  community, it would be nice if there is something that could remind us about the feeling of nature.
                 </p>
                 <img className="paddingtop30" src="img/makeitbloom/mib4.png" alt="Make It Bloom Project"/>
                 <p className="paddingtop30">
@@ -43,7 +42,7 @@ export default class MakeItBloom extends Component {
                 <br/>
                 <span>June 2021</span>
                 <br/><br/>
-                <span>role: interactive artist<br/><br/>tools: Adafruit BrainCraft, Python, Lobe, Physical Computing, Digital Fabrication, Maching Learning</span>
+                <span>role: interactive artist<br/><br/>tools: Adafruit BrainCraft, Python, Lobe, Physical Computing, Digital Fabrication, Machine Learning</span>
               </div>
             </div>
           </div>

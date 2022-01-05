@@ -20,16 +20,16 @@ export default class SoundHeartHand extends Component {
                   As a person who is always fascinated by performing arts, I have been inspired by the beauty of dance and music. 
                   During my sophomore year, I went to UW Chamber Dance Company Concert and was impressed by the feelings that the 
                   dancers convey, not with words but with body movements. With an intention to explore the connection between the 
-                  inner and outer body while performing, I created an interactive object that reads a person’s heart rate and 
+                  inner and outer body while performing, I created an interactive object that reads a person's heart rate and 
                   movement to control sound.
                 </p>
                 <img className="paddingtop30" src="img/soundhh/shh1.png" alt="The Sound of Heart and Hand Project"/>
                 <p className="paddingtop30">
-                  Learning about the artist’s mind and intention is part of knowing the art itself. My motivation for creating this 
+                  Learning about the artist's mind and intention is part of knowing the art itself. My motivation for creating this 
                   interactive object is to enhance the sense of feeling using sound as a medium, to sense not only what the artist 
                   performs but also how they feel at the moment. The Sound of Heart and Hand is made in a form of wearable art using 
                   a hand glove. In the process of creating this interactive object, I used a heart rate sensor to detect the heart rate, 
-                  an ultrasonic sensor to determine the distance between the artist’s hand and other objects, and a speaker that makes 
+                  an ultrasonic sensor to determine the distance between the artist's hand and other objects, and a speaker that makes 
                   different sounds based on heart rate and distance data received.
                 </p>
                 <img className="paddingtop30" src="img/soundhh/shh2.png" alt="The Sound of Heart and Hand Project"/>

@@ -28,7 +28,7 @@ export default class WorldfromMyHands extends Component {
                   The way people can interact with this installation is to move their hand near the ultrasonic sensor 
                   attached to the wall. The distance between the hand and the sensor will trigger the animation of 
                   raindrops and animated circles, which appear separately depending on how close the hand is to the 
-                  sensor. The hand movement makes me think of a scene when a magician casting a spell in movies I have 
+                  sensor. The hand movement makes me think of a scene when a magician casts a spell in movies I have 
                   seen, which is always satisfying for me.
                 </p>
                 <img className="paddingtop30" src="img/worldfromhand/wh2.png" alt="The World from My Hands Project"/>

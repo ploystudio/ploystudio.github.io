@@ -24,7 +24,7 @@ export default class VestMemories extends Component {
                 </p>
                 <img className="paddingtop30" src="img/vestmemo/vm1.png" alt="The Vest of Memories Project"/>
                 <p className="paddingtop30">
-                  I would like to become a part of the project, so my idea is to make myself a ‘canvas’ that illustrates 
+                  I would like to become a part of the project, so my idea is to make myself a 'canvas' that illustrates 
                   those memories. I started by sewing the vest and attached an LED at the center of it. I used conductive 
                   threads to connect the LED and the ultrasonic sensor to the breadboard. The way I interact with this vest 
                   is to move my hand near the ultrasonic sensor, which has been placed next to where the heart is supposed 
@@ -34,12 +34,12 @@ export default class VestMemories extends Component {
                 <img className="paddingtop30" src="img/vestmemo/vm2.png" alt="The Vest of Memories Project"/>
                 <img className="paddingtop30" src="img/vestmemo/vm3.png" alt="The Vest of Memories Project"/>
                 <p className="paddingtop30">
-                  For the coding part, I used Arduino and Python. I received the serial data of distance between my hand 
-                  and the ultrasonic sensor from Arduino and used the Pyserial library in Python to read it. I then wrote 
-                  the code to control the LED and the video in Python. If the distance is less than 10 cm, the LED and 
-                  the video will be on. On the other hand, if the distance is more than 10 cm, the LED will be off and 
-                  the video will be paused. This gesture highlights the fact that these memories have been triggered by 
-                  heart, and I want to convey this message through interactive experience.
+                  For the coding part, I used Arduino and Python. I received the serial data of distance between my hand and 
+                  the ultrasonic sensor from Arduino and used the Pyserial library in Python to read it. I then wrote the code 
+                  to control the LED and the video in Python. If the distance is less than 10 cm, the LED and the video will be on. 
+                  On the other hand, if the distance is more than 10 cm, the LED will be off and the video will be paused. This 
+                  esture highlights the fact that these memories have been triggered by heart, and I want to convey this message 
+                  through an interactive experience.
                 </p>
                 <img className="paddingtop30" src="img/vestmemo/vm4.png" alt="The Vest of Memories Project"/>
               </div>

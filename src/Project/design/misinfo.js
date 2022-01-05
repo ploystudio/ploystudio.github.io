@@ -17,7 +17,7 @@ export default class Misinfo extends Component {
                 <br/>
                 <img src="img/misinfo/mer1.png" alt="Misinformation Escape Room Project"/>
                 <p className="paddingtop30">
-                  The purpose of Misinformation Escape Room is to teach people about mis- and disinformation on 
+                  The purpose of the Misinformation Escape Room is to teach people about misinformation and disinformation on 
                   social media and digital platforms through an interactive puzzle game. The project is part of 
                   Technology &amp; Social Change Group at the University of Washington Information School.
                 </p>
@@ -41,7 +41,7 @@ export default class Misinfo extends Component {
                 <br/><br/>
                 <span>
                   role: user experience designer<br/><br/>tools: Figma, Adobe Photoshop
-                  <br/><br/>(work with another graphic designer and a web developer)
+                  <br/><br/>(work with 1 graphic designer and 1 web developer)
                 </span>
               </div>
             </div>

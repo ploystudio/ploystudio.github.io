@@ -17,20 +17,26 @@ export default class FamApp extends Component {
                 <br/>
                 <img src="img/fam/fam4.png" alt="Fam App"/>
                 <p className="paddingtop30">
-                  Fam app is an app to control smart home devices with a goal to enhance communication within the family.
-                  My teammates and I found that staying at home for extended periods of time during COVID leads to higher 
-                  levels of stress; therefore, we decided to build an app that creates empathy and makes communication easier 
-                  among parents and teenage children.
+                  Fam App is an app to control smart home devices with a goal to enhance communication within the family. From the user research, 
+                  I have found that staying at home for extended periods of time during COVID leads to higher levels of stress; therefore, our team 
+                  proposed a design of an app that creates empathy and makes communication easier among parents and teenage children.
                 </p>
                 <img className="paddingtop30" src="img/fam/fam3.png" alt="Fam App"/>
-                <p className="paddingtop30">This user journey map is created based on our research findings to represent the emotional experience of the
+                <p className="paddingtop30">
+                  This user journey map is created based on our research findings to represent the emotional experience of the
                   parents when trying to communicate with their teenage children.
                 </p>
                 <img className="paddingtop30" src="img/fam/fam1.png" alt="Fam App"/>
                 <img className="paddingtop30" src="img/fam/fam2.png" alt="Fam App"/>
                 <p className="paddingtop30">
                   The storyboards focused on facilitating the initiation of conversation. We came up with different possible solutions 
-                  that incorporated features that could be the answer for our user’s needs.
+                  that incorporated features that could be the answer for our user's needs.
+                </p>
+                <p>
+                  The app design was focused to inform family members how the user is currently feeling, reduce stress levels of not having to 
+                  guess when the right time comes along to talk about something personal, schedule the most effective time for all members to 
+                  gather and converse, collect users' song selections to create family mood playlists and interact as a family, and track users' 
+                  feelings throughout the day or week based on the color or contexts they choose to interact with on the app.
                 </p>
                 <br/>
                 <center>

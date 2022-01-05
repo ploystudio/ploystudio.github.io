@@ -25,19 +25,19 @@ export default class Oscars extends Component {
                 <img src="img/oscars/barchart.png" alt="Diversity in Oscars Bar Chart"/>
                 <img src="img/oscars/timeline.png" alt="Diversity in Oscars Timeline"/>
                 <p className="paddingtop30">
-                  Our goal for the design was to inform the users and showed the scale of how disproportionate racial diversity was 
-                  in Academy Award nominees and winners. To show that, we wanted to quantify the total winners and nominees by 
-                  giving each winner and nominee a unit (a human figure) and highlighting the people of color. We also wanted to 
-                  show the audience the different people of color nominees and winners in a timeline and provided more details about 
-                  them to highlight their accomplishments and significance. Finally, a geographical map would highlight the racial 
-                  diversity once more and illustrate the different locations award winners and nominees are from.
+                  The main goal of the data visualization is to inform the users and show the scale of how disproportionate racial 
+                  diversity was in Academy Award nominees and winners. To show that, we had quantified the total winners and nominees by 
+                  giving each winner and nominee a unit (a human figure) and highlighting the people of color. We also provided more details 
+                  about people of colors nominees and winners in a timeline to share their accomplishments and significance. My contributions 
+                  to the project were to clean up and combine the datasets, set up the scrolltelling design for the timeline visualization, 
+                  and work on the geographical map that highlights racial diversity and illustrates the different locations award winners and 
+                  nominees are from. 
                 </p>
                 <br/>
                 <img src="img/oscars/map.png" alt="Diversity in Oscars Interactive Map"/>
                 <p className="paddingtop30">
-                  From that reason, our group was leaning towards telling a story about the racial diversity of Academy Award nominees and 
-                  winners using a scrolling design and interactive information visualizations. My contributions to the project were to clean up 
-                  and combine the datasets, work on the geographic map, and set up the scrolltelling design for the timeline visualization.
+                  This data visualization tells a story about the racial diversity of Academy Award nominees and winners using a scrolling design and 
+                  interactive information visualizations.
                 </p>
               </div>
               <div className="col2-start col2-end">
