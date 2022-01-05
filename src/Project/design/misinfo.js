@@ -42,6 +42,7 @@ export default class Misinfo extends Component {
                 <span>
                   role: user experience designer<br/><br/>tools: Figma, Adobe Photoshop
                   <br/><br/>(work with 1 graphic designer and 1 web developer)
+                  <br/><br/><a href="https://www.lokisloop.org/" target="_blank" rel="noreferrer"><span>Link to the game website</span></a>
                 </span>
               </div>
             </div>
