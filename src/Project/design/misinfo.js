@@ -15,12 +15,13 @@ export default class Misinfo extends Component {
               <div className="col1-start col-1end">
                 <h2>Misinformation Escape Room</h2>
                 <br/>
-                <img src="img/misinfo/mer1.png" alt="Misinformation Escape Room Project"/>
+                <img src="img/misinfo/mer2.png" alt="Misinformation Escape Room Project"/>
                 <p className="paddingtop30">
                   The purpose of the Misinformation Escape Room is to teach people about misinformation and disinformation on 
                   social media and digital platforms through an interactive puzzle game. The project is part of 
                   Technology &amp; Social Change Group at the University of Washington Information School.
                 </p>
+                <img src="img/misinfo/mer1.png" alt="Misinformation Escape Room Project"/>
                 <p className="paddingtop30">
                   I was a part of the development team to revise the first design of the game. As a user experience designer, 
                   I focused on the user flow, interface elements, and the gaming experience of the online escape room. I mainly
