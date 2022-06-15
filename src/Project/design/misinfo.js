@@ -21,14 +21,12 @@ export default class Misinfo extends Component {
                   social media and digital platforms through an interactive puzzle game. The project is part of 
                   Technology &amp; Social Change Group at the University of Washington Information School.
                 </p>
-                <img className="paddingtop30" src="img/misinfo/mer3.png" alt="Misinformation Escape Room Project"/>
                 <p className="paddingtop30">
                   I was a part of the development team to revise the first design of the game. As a user experience designer, 
                   I focused on the user flow, interface elements, and the gaming experience of the online escape room. I mainly
                   worked on designing and adjusting the game interfaces and interactions based on the research findings from 
                   user testings.
                 </p>
-                <img className="paddingtop30" src="img/misinfo/mer4.png" alt="Misinformation Escape Room Project"/>
                 <p className="paddingtop30">
                   After deploying the new design of the game, our research group is working on the process of testing with libraries, 
                   schools, museums, and other educational institutions, with a goal to provide an edicational tool for technological awareness.
